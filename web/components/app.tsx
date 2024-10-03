@@ -23,8 +23,10 @@ export function App() {
   const [darkMode, setDarkMode] = useState(false)
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-    document.documentElement.classList.toggle("dark")
+    if (typeof document !== "undefined") {
+      setDarkMode(!darkMode)
+      document.documentElement.classList.toggle("dark")
+    }
   }
 
   return (

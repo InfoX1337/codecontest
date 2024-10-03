@@ -62,7 +62,7 @@ export function AdminDashboardComponent() {
           <Card>
             <CardHeader>
               <CardTitle>Organization Settings</CardTitle>
-              <CardDescription>Manage your organization's details</CardDescription>
+              <CardDescription>Manage your organization&apos;'s details</CardDescription>
             </CardHeader>
             <CardContent>
               <form className="space-y-4">
